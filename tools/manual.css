@@ -1,0 +1,26 @@
+:root {
+  color-scheme: dark !important;
+  --brand-50: #12301f !important;
+  --brand-tint: #13261b !important;
+  --brand-100: #1d4430 !important;
+  --bg: #15171a !important;
+  --paper: #1b1e22 !important;
+  --surface: #1e2125 !important;
+  --ink: #e6e8eb !important;
+  --ink-2: #c4c8ce !important;
+  --ink-3: #9aa0a9 !important;
+  --ink-4: #737a84 !important;
+  --ink-blue: #6ea8fe !important;
+  --line: #33373d !important;
+  --line-2: #2a2d32 !important;
+  --amber: #e0a050 !important;
+  --amber-tint: #3a2e18 !important;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.4) !important;
+  --shadow-md: 0 6px 24px rgba(0,0,0,.45), 0 1px 2px rgba(0,0,0,.4) !important;
+}
+html, body { background-color: #15171a !important; color: #e6e8eb !important; }
+input, textarea, select { background-color: transparent; color: #e6e8eb !important; }
+textarea::placeholder, input::placeholder { color: #737a84 !important; }
+::selection { background: #1d6b45 !important; color: #fff !important; }
+.tr-apps { background: linear-gradient(100deg, #15302a 0%, #1a2d33 55%, #2b2f1c 100%) !important; }
+.tr-apps-text h3 { color: #e6e8eb !important; }
